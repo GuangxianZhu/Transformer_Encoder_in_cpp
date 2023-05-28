@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/12192/CLionProjects/NN_3/NeuralNetwork.hpp
+matrix.hpp
+C:/Users/12192/CLionProjects/NN_3/matrix.hpp
+vector
+-
+cstdlib
+-
+cmath
+-
+numeric
+-
+
+C:/Users/12192/CLionProjects/NN_3/main.cpp
+iostream
+-
+NeuralNetwork.hpp
+C:/Users/12192/CLionProjects/NN_3/NeuralNetwork.hpp
+vector
+-
+cstdio
+-
+
+C:/Users/12192/CLionProjects/NN_3/matrix.hpp
+vector
+-
+iostream
+-
+iomanip
+-
+cassert
+-
+functional
+-
+
